@@ -96,8 +96,8 @@
     margin-top: 3em;
     display: flex;
 }
-
-input,
+ 
+.banner-filter input,
 select {
     padding: 1em;
     width: 10.875em;
@@ -222,7 +222,8 @@ select {
 }
 
 .contact-box {
-    width: 30%;
+    /* width: 30%; */
+    flex: 1;
     border-radius: 16px;
     border: 1px solid var(--primary-color);
     padding: 65px 40px;
@@ -246,23 +247,28 @@ select {
 }
 
 .contact-box input {
-    width: 96%;
+    width: calc(100% - 20px);
     border-radius: 8px;
     background: rgba(19, 19, 24, 0.05);
     margin-bottom: 16px;
+    padding: 14px 10px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
 }
 
 .contact-box input[type="submit"] {
+    width: 100%;
     background-color: var(--primary-color);
     color: #fff;
     font-size: 20px;
     font-weight: 800;
-    padding: 14px 0;
-    width: 107%;
+    padding: 14px 0px;
+    border: none;
 }
 
 .contact-right-box {
-    width: 75%;
+flex: 2;
+    /* width: 75%; */
 }
 
 .contact-right-box img {
