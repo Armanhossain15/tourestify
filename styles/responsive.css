@@ -4,7 +4,9 @@
         width: 90%;
         margin: auto;
     }
-
+    .flex{
+        flex-direction: column;
+    }
     .menu {
         display: none;
     }
@@ -50,6 +52,15 @@
     }
 
     /* banner end */
+    /* popular tour start */
+    .left-text{
+        margin-bottom: 24px;
+    }
+    .right-img img{
+        width: 100%;
+        height: 100%;
+    }
+    /* popular tour end */
     /* destination start */
     .destination-content {
         margin-bottom: 1em;
@@ -121,6 +132,22 @@
         left: 37%;
     }
     /* destination end */
+    /* contact start */
+    .contact-box{
+        width: 82%;
+        margin-bottom: 1em;
+        margin: auto;
+    }
+    .contact-right-box {
+        width: 100%;
+    }
+    .contact-right-box img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    /* contact end */
+
 
 }
 
