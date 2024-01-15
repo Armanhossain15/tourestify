@@ -1,0 +1,14 @@
+/* responsive for mobile  */
+@media screen and (max-width:600px){
+    .width{
+        width: 90%;
+        margin: auto;
+    }
+    .menu{
+        display: none;
+    }
+    .icon{
+        display: block;
+    }
+}
+/* responsive for mobile  */
