@@ -154,7 +154,21 @@
     }
     
     /* contact end */
-
+    /* footer start */
+    footer {
+        padding: 33px 0;
+    }
+    footer p{
+        width: 90%;
+        margin-bottom: 16px;
+    }
+    .social-media i {
+        font-size: 30px;
+    }
+    hr {
+        margin: 24px 0;
+    }
+    /* footer end */
 
 }
 
