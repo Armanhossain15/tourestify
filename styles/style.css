@@ -342,9 +342,11 @@ select {
     background-size: cover;
     margin-bottom: 24px;
 }
-.deals2{
+
+.deals2 {
     justify-content: left;
 }
+
 .deals1-content {
     border-radius: 16px;
     border: 2px solid #FFF;
@@ -399,6 +401,21 @@ select {
     font-size: 20px;
     font-weight: 800;
     border: none;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn button {
+    padding: 14px 21px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+    margin-top: 48px;
 }
 
 /* deals and discount end */
