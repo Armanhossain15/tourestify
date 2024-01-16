@@ -282,43 +282,126 @@ select {
 
 /* why choose us section end */
 /* team start */
-.team{
+.team {
     padding-bottom: 100px;
 }
-.all-members, .member-info{
+
+.all-members,
+.member-info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
-.member-info{
+
+.member-info {
     padding: 10px 0;
 }
-.member{
+
+.member {
     border-radius: 5px;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(222, 221, 220, 0.5);
     padding: 15px;
 }
-.member img{
+
+.member img {
     width: 100%;
 }
-.member h1{
+
+.member h1 {
     font-size: 16px;
     font-weight: 800;
     margin-bottom: 8px 0 5px;
 }
-.member p{
+
+.member p {
     font-size: 12px;
 }
- .member-info .social-media i{
+
+.member-info .social-media i {
     font-size: 20px;
     margin-right: 4px;
     background-color: #e5e3e3;
     padding: 10px;
     border-radius: 50px;
-} 
+}
+
 /* team end */
+/* deals and discount start  */
+.deals-and-discount {
+    padding: 110px 0;
+}
+
+.deals1 {
+    background-image: url("../Images/Group\ 39.png");
+    padding: 56px;
+    display: flex;
+    justify-content: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 24px;
+}
+.deals2{
+    justify-content: left;
+}
+.deals1-content {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    padding: 50px;
+    width: 45%;
+}
+
+.time-date {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 26px;
+}
+
+.time-date i {
+    margin-right: 3px;
+}
+
+.time-date span {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.deals1 h2 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 16px;
+}
+
+.deals1 p {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.deals1 h4 {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 38px;
+}
+
+.deals1 button {
+    padding: 14px 24px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    border: none;
+}
+
+/* deals and discount end */
 /* contact start */
 .contact {
     padding-bottom: 100px;

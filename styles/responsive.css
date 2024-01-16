@@ -165,6 +165,15 @@
         font-size: 15px;
     }
     /* team end */
+    /* deals and discount start */
+    .deals1{
+        border-radius: 16px;
+        padding:250px 16px 16px 16px;
+    }
+    .deals1-content{
+        width: 100%;
+    }
+    /* deals and discount end */
     /* contact start */
     .contact {
         flex-direction: column;
