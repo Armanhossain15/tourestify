@@ -215,7 +215,72 @@ select {
 }
 
 /* Destination end */
+/* why choose us section start */
+.why-choose-us {
+    padding-bottom: 100px;
+}
 
+.upper-text {
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.upper-text h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.upper-text p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 50%;
+    margin: auto;
+}
+
+.why-choose-us-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.child-div {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+    width: 35%;
+}
+
+#div2 {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.child-div img {
+    width: 64px;
+    height: 64px;
+}
+
+.child-div h1 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    margin: 24px 0 16px;
+}
+
+.child-div p {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+/* why choose us section end */
 /* contact start */
 .contact {
     padding-bottom: 100px;

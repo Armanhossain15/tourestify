@@ -4,7 +4,7 @@
         width: 90%;
         margin: auto;
     }
-    
+
     .menu {
         display: none;
     }
@@ -51,16 +51,19 @@
 
     /* banner end */
     /* popular tour start */
-    .popular-tour{
+    .popular-tour {
         flex-direction: column;
     }
-    .left-text{
+
+    .left-text {
         margin-bottom: 24px;
     }
-    .right-img img{
+
+    .right-img img {
         width: 100%;
         height: 100%;
     }
+
     /* popular tour end */
     /* destination start */
     .destination-content {
@@ -129,45 +132,69 @@
         top: 37%;
         left: 37%;
     }
+
     #left {
         left: 37%;
     }
+
     /* destination end */
+    /* why choose us start */
+    .upper-text{
+        margin-bottom: 16px;
+    }
+    .upper-text h1 {
+        font-size: 20px;
+        margin-bottom: 16px;
+    }
+    .upper-text p{
+        width: 90%;
+    }
+    .child-div{
+        width: 100%;
+    }
+    /* why choose us end */
     /* contact start */
-    .contact{
+    .contact {
         flex-direction: column;
 
     }
-    .contact-box{
+
+    .contact-box {
         flex: 1;
         margin: auto;
-        
+
     }
+
     .contact-right-box {
         /* width: 100%; */
         margin-top: 16px;
         flex: 1;
     }
-    .contact-right-box img{
+
+    .contact-right-box img {
         width: 100%;
         height: 100%;
     }
-    
+
     /* contact end */
     /* footer start */
     footer {
         padding: 33px 0;
     }
-    footer p{
+
+    footer p {
         width: 90%;
         margin-bottom: 16px;
     }
+
     .social-media i {
         font-size: 30px;
     }
+
     hr {
         margin: 24px 0;
     }
+
     /* footer end */
 
 }
