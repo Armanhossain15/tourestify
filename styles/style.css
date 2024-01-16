@@ -281,6 +281,44 @@ select {
 }
 
 /* why choose us section end */
+/* team start */
+.team{
+    padding-bottom: 100px;
+}
+.all-members, .member-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.member-info{
+    padding: 10px 0;
+}
+.member{
+    border-radius: 5px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(222, 221, 220, 0.5);
+    padding: 15px;
+}
+.member img{
+    width: 100%;
+}
+.member h1{
+    font-size: 16px;
+    font-weight: 800;
+    margin-bottom: 8px 0 5px;
+}
+.member p{
+    font-size: 12px;
+}
+ .member-info .social-media i{
+    font-size: 20px;
+    margin-right: 4px;
+    background-color: #e5e3e3;
+    padding: 10px;
+    border-radius: 50px;
+} 
+/* team end */
 /* contact start */
 .contact {
     padding-bottom: 100px;
