@@ -173,6 +173,7 @@
         padding:250px 16px 16px 16px;
     }
     .deals1-content{
+        padding: 25px;
         width: 100%;
     }
     /* deals and discount end */
@@ -200,7 +201,8 @@
     }
     .discount{
         padding: 20px 30px;
-        right: 20px;
+        bottom: 40px;
+        right: 15px;
     }
     .discount h3{
         font-size: 15px;
