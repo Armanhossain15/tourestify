@@ -52,18 +52,20 @@
     /* banner end */
     /* popular tour start */
     .popular-tour {
+        padding-top: 35px;
         flex-direction: column;
     }
 
     .left-text {
         margin-bottom: 24px;
     }
-
+    .left-text h1{
+        font-size: 20px;
+    }
     .right-img img {
         width: 100%;
         height: 100%;
     }
-
     /* popular tour end */
     /* destination start */
     .destination-content {
@@ -196,7 +198,16 @@
         width: 100%;
         height: 100%;
     }
-
+    .discount{
+        padding: 20px 30px;
+        right: 20px;
+    }
+    .discount h3{
+        font-size: 15px;
+    }
+    .discount h1{
+        font-size: 20px;
+    }
     /* contact end */
     /* footer start */
     footer {
